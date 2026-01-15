@@ -1,0 +1,22 @@
+server:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
+
+database:
+  driver: "mysql+mysqlconnector"
+  host: "localhost"
+  port: 3306
+  username: "iot_admin"
+  database_name: "smart_parking_db"
+  pool_size: 20  # Optimized for high concurrency
+
+hardware:
+  serial_port: "/dev/ttyACM0"
+  baud_rate: 9600
+  buffer_size: 1024
+  timeout: 1
+
+ai_model:
+  path: "./models/occupancy_transformer_v2.pth"
+  batch_size: 32
