@@ -40,3 +40,5 @@ The core logic was shifted to an asynchronous architecture utilizing Python's `t
 ## 🚀 Performance Improvements
 - **Throughput:** Improved by **40%** post-refactoring.
 - **Data Integrity:** Achieved **0% packet loss** in stress tests (simulated 500 sensors).
+
+> **⚠️ Note:** Due to proprietary hardware dependencies and localized database configurations, this repository serves as a **Code Sample** and **Architecture Documentation**. It contains the refactored core logic (Producer-Consumer pattern) demonstrating the solution to the concurrency bottleneck described in my application.
